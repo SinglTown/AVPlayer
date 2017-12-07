@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		808E3DE5962D47D40AF3FD13 /* libPods-AVPlayer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D625D81F4314C096C6ABB706 /* libPods-AVPlayer.a */; };
 		FF7D8C271FD6A25100C314BA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C261FD6A25100C314BA /* AppDelegate.m */; };
 		FF7D8C2A1FD6A25100C314BA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C291FD6A25100C314BA /* ViewController.m */; };
 		FF7D8C2D1FD6A25100C314BA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF7D8C2B1FD6A25100C314BA /* Main.storyboard */; };
@@ -15,6 +16,12 @@
 		FF7D8C351FD6A25100C314BA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C341FD6A25100C314BA /* main.m */; };
 		FF7D8C3F1FD6A25100C314BA /* AVPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C3E1FD6A25100C314BA /* AVPlayerTests.m */; };
 		FF7D8C4A1FD6A25100C314BA /* AVPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C491FD6A25100C314BA /* AVPlayerUITests.m */; };
+		FF7D8C5C1FD79FF100C314BA /* CBPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C5B1FD79FF100C314BA /* CBPlayer.m */; };
+		FF7D8C5F1FD7BA3400C314BA /* CBPlayProgressView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C5E1FD7BA3400C314BA /* CBPlayProgressView.m */; };
+		FF7D8C621FD7BA5600C314BA /* CBPlayerBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C611FD7BA5600C314BA /* CBPlayerBottomView.m */; };
+		FF7D8C651FD7BA8300C314BA /* CBLoadingView.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8C641FD7BA8300C314BA /* CBLoadingView.m */; };
+		FF7D8CE01FD8CC3700C314BA /* NSObject+Tool.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8CDF1FD8CC3700C314BA /* NSObject+Tool.m */; };
+		FF7D8CE31FD8CC4600C314BA /* CAGradientLayer+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = FF7D8CE21FD8CC4600C314BA /* CAGradientLayer+Color.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3DE031E602FF7C66ECEDB871 /* Pods-AVPlayer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.debug.xcconfig"; sourceTree = "<group>"; };
+		BC762DF77570569F4D5DB8B7 /* Pods-AVPlayer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AVPlayer.release.xcconfig"; path = "Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer.release.xcconfig"; sourceTree = "<group>"; };
+		D625D81F4314C096C6ABB706 /* libPods-AVPlayer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-AVPlayer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D8C221FD6A25100C314BA /* AVPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AVPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D8C251FD6A25100C314BA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		FF7D8C261FD6A25100C314BA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +61,19 @@
 		FF7D8C451FD6A25100C314BA /* AVPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF7D8C491FD6A25100C314BA /* AVPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerUITests.m; sourceTree = "<group>"; };
 		FF7D8C4B1FD6A25100C314BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF7D8C5A1FD79FF100C314BA /* CBPlayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBPlayer.h; sourceTree = "<group>"; };
+		FF7D8C5B1FD79FF100C314BA /* CBPlayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBPlayer.m; sourceTree = "<group>"; };
+		FF7D8C5D1FD7BA3400C314BA /* CBPlayProgressView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBPlayProgressView.h; sourceTree = "<group>"; };
+		FF7D8C5E1FD7BA3400C314BA /* CBPlayProgressView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBPlayProgressView.m; sourceTree = "<group>"; };
+		FF7D8C601FD7BA5600C314BA /* CBPlayerBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBPlayerBottomView.h; sourceTree = "<group>"; };
+		FF7D8C611FD7BA5600C314BA /* CBPlayerBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBPlayerBottomView.m; sourceTree = "<group>"; };
+		FF7D8C631FD7BA8200C314BA /* CBLoadingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBLoadingView.h; sourceTree = "<group>"; };
+		FF7D8C641FD7BA8300C314BA /* CBLoadingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CBLoadingView.m; sourceTree = "<group>"; };
+		FF7D8C661FD7BD4700C314BA /* CBPrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CBPrefixHeader.pch; sourceTree = "<group>"; };
+		FF7D8CDE1FD8CC3700C314BA /* NSObject+Tool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NSObject+Tool.h"; sourceTree = "<group>"; };
+		FF7D8CDF1FD8CC3700C314BA /* NSObject+Tool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "NSObject+Tool.m"; sourceTree = "<group>"; };
+		FF7D8CE11FD8CC4600C314BA /* CAGradientLayer+Color.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CAGradientLayer+Color.h"; sourceTree = "<group>"; };
+		FF7D8CE21FD8CC4600C314BA /* CAGradientLayer+Color.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "CAGradientLayer+Color.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				808E3DE5962D47D40AF3FD13 /* libPods-AVPlayer.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +102,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		914C0047E665FBA8BCB8FC2C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3DE031E602FF7C66ECEDB871 /* Pods-AVPlayer.debug.xcconfig */,
+				BC762DF77570569F4D5DB8B7 /* Pods-AVPlayer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9EB442D7596BB1D2E496D969 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D625D81F4314C096C6ABB706 /* libPods-AVPlayer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FF7D8C191FD6A25100C314BA = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +126,8 @@
 				FF7D8C3D1FD6A25100C314BA /* AVPlayerTests */,
 				FF7D8C481FD6A25100C314BA /* AVPlayerUITests */,
 				FF7D8C231FD6A25100C314BA /* Products */,
+				914C0047E665FBA8BCB8FC2C /* Pods */,
+				9EB442D7596BB1D2E496D969 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -105,6 +148,19 @@
 				FF7D8C261FD6A25100C314BA /* AppDelegate.m */,
 				FF7D8C281FD6A25100C314BA /* ViewController.h */,
 				FF7D8C291FD6A25100C314BA /* ViewController.m */,
+				FF7D8C5A1FD79FF100C314BA /* CBPlayer.h */,
+				FF7D8C5B1FD79FF100C314BA /* CBPlayer.m */,
+				FF7D8C5D1FD7BA3400C314BA /* CBPlayProgressView.h */,
+				FF7D8C5E1FD7BA3400C314BA /* CBPlayProgressView.m */,
+				FF7D8C601FD7BA5600C314BA /* CBPlayerBottomView.h */,
+				FF7D8C611FD7BA5600C314BA /* CBPlayerBottomView.m */,
+				FF7D8C631FD7BA8200C314BA /* CBLoadingView.h */,
+				FF7D8C641FD7BA8300C314BA /* CBLoadingView.m */,
+				FF7D8C661FD7BD4700C314BA /* CBPrefixHeader.pch */,
+				FF7D8CDE1FD8CC3700C314BA /* NSObject+Tool.h */,
+				FF7D8CDF1FD8CC3700C314BA /* NSObject+Tool.m */,
+				FF7D8CE11FD8CC4600C314BA /* CAGradientLayer+Color.h */,
+				FF7D8CE21FD8CC4600C314BA /* CAGradientLayer+Color.m */,
 				FF7D8C2B1FD6A25100C314BA /* Main.storyboard */,
 				FF7D8C2E1FD6A25100C314BA /* Assets.xcassets */,
 				FF7D8C301FD6A25100C314BA /* LaunchScreen.storyboard */,
@@ -139,9 +195,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF7D8C4E1FD6A25100C314BA /* Build configuration list for PBXNativeTarget "AVPlayer" */;
 			buildPhases = (
+				B68207E6E3F38F86E94AB1B4 /* [CP] Check Pods Manifest.lock */,
 				FF7D8C1E1FD6A25100C314BA /* Sources */,
 				FF7D8C1F1FD6A25100C314BA /* Frameworks */,
 				FF7D8C201FD6A25100C314BA /* Resources */,
+				484C2677D546867FA99E316E /* [CP] Embed Pods Frameworks */,
+				767BFFCEFE66B5A9F2ECEF09 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -260,14 +319,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		484C2677D546867FA99E316E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		767BFFCEFE66B5A9F2ECEF09 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AVPlayer/Pods-AVPlayer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B68207E6E3F38F86E94AB1B4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AVPlayer-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FF7D8C1E1FD6A25100C314BA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF7D8C651FD7BA8300C314BA /* CBLoadingView.m in Sources */,
 				FF7D8C2A1FD6A25100C314BA /* ViewController.m in Sources */,
 				FF7D8C351FD6A25100C314BA /* main.m in Sources */,
+				FF7D8CE31FD8CC4600C314BA /* CAGradientLayer+Color.m in Sources */,
+				FF7D8CE01FD8CC3700C314BA /* NSObject+Tool.m in Sources */,
 				FF7D8C271FD6A25100C314BA /* AppDelegate.m in Sources */,
+				FF7D8C5C1FD79FF100C314BA /* CBPlayer.m in Sources */,
+				FF7D8C5F1FD7BA3400C314BA /* CBPlayProgressView.m in Sources */,
+				FF7D8C621FD7BA5600C314BA /* CBPlayerBottomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,13 +544,17 @@
 		};
 		FF7D8C4F1FD6A25100C314BA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DE031E602FF7C66ECEDB871 /* Pods-AVPlayer.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6P67Z549Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AVPlayer/CBPrefixHeader.pch;
 				INFOPLIST_FILE = AVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "---.AVPlayer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVPlayer.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -442,13 +562,17 @@
 		};
 		FF7D8C501FD6A25100C314BA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC762DF77570569F4D5DB8B7 /* Pods-AVPlayer.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X6P67Z549Z;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = AVPlayer/CBPrefixHeader.pch;
 				INFOPLIST_FILE = AVPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "---.AVPlayer";
+				PRODUCT_BUNDLE_IDENTIFIER = com.AVPlayer.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
